@@ -1,0 +1,18 @@
+.input-daterange.input-group .form-control:first-child {
+  border-right: none;
+}
+.input-daterange.input-group .form-control:last-child {
+  border-left: none;
+}
+.has-error .help-block, .has-error .control-label {
+  color: #a94442;
+}
+.has-error .form-control {
+  border-color: #A94442;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+.has-error .help-block {
+  font-size: 14px;
+  display: block;
+  margin-top: 5px;
+}

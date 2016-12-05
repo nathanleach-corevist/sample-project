@@ -1,0 +1,59 @@
+@import "variables";
+
+.u-cf:before,
+.u-cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.u-cf:after {
+    clear: both;
+}
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.u-cf {
+    *zoom: 1;
+}
+
+.u-hidden {
+  visibility: hidden;
+}
+
+.u-flex {
+  display: flex;
+}
+.u-flexRight {
+  margin-left: auto;
+}
+.u-floatRight {
+  float: right;
+}
+.u-flexLeft {
+  align-self: flex-start;
+}
+.u-floatLeft {
+  float: left;
+}
+
+.u-alignCenter {
+  text-align: center;
+}
+
+.u-highlighted {
+  color: $primary-color;
+}
+
+input.u-inputError,
+textarea.u-inputError,
+select.u-inputError {
+  z-index: 2;
+  border-color: #EB3434;
+}
+
+.u-successGreen {
+  color: $success-green;
+}
+.u-errorRed {
+  color: $error-red;
+}

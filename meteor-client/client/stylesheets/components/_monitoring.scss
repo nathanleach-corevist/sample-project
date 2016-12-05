@@ -1,0 +1,11 @@
+.monitoring {
+  @include container;
+}
+
+.monitoring__avail-opts {
+  @include span(6 of 12);
+}
+
+.monitoring__user-lists {
+  @include span(6 of 12);
+}

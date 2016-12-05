@@ -1,0 +1,27 @@
+.sap-maintenance {
+  @include container;
+}
+
+.sap-maintenance__action-btns {
+  @include span(12 of 12);
+}
+
+.sap-maintenance__collapse-box {
+  @include span(12 of 12);
+}
+
+.sap-maintenance__sidebar {
+  @include span(3 of 12);
+}
+
+.sap-maintenance__content {
+  @include span(9 of 12);
+}
+
+.sap-maintenance__msg-wrap {
+  @include span(12 of 12);
+}
+
+.sap-maintenance__info {
+  @include span(6 of 12);
+}

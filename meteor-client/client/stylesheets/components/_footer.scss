@@ -1,0 +1,23 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  background-color: #333;
+  color: #FFF;
+  line-height: 60px;
+  font-size: 12px;
+}
+
+.footer__content {
+  @include container;
+}
+
+.footer__copyright {
+  display: inline-block;
+}
+
+.footer__links {
+  display: inline-block;
+}

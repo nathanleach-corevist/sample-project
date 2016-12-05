@@ -1,0 +1,11 @@
+$susy: (
+  container: 1120px,
+  columns: 12,
+  gutters: 1/4,
+  math: fluid,
+  output: float,
+  gutter-position: inside,
+  global-box-sizing: border-box,
+);
+
+@include border-box-sizing;

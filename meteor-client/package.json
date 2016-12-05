@@ -1,0 +1,48 @@
+{
+  "name": "cv-client",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "bcrypt": "^0.8.7",
+    "classnames": "^2.2.3",
+    "history": "^2.0.2",
+    "humps": "^1.1.0",
+    "isomorphic-fetch": "^2.2.1",
+    "lodash": "^4.11.1",
+    "meteor-node-stubs": "~0.2.0",
+    "normalizr": "^2.0.1",
+    "react": "^0.14.8",
+    "react-addons-create-fragment": "^0.14.8",
+    "react-addons-pure-render-mixin": "^0.14.8",
+    "react-dom": "^0.14.8",
+    "react-mixin": "^3.0.4",
+    "react-paginate": "^1.0.3",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.2.4",
+    "react-router-redux": "^4.0.2",
+    "redux": "^3.4.0",
+    "redux-devtools": "^3.2.0",
+    "redux-devtools-dock-monitor": "^1.1.1",
+    "redux-devtools-log-monitor": "^1.0.11",
+    "redux-form": "^5.2.5",
+    "redux-logger": "^2.6.1",
+    "redux-thunk": "^2.0.1",
+    "susy": "^2.2.12"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wolves/cv-client.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wolves/cv-client/issues"
+  },
+  "homepage": "https://github.com/wolves/cv-client#readme",
+  "description": ""
+}

@@ -1,0 +1,37 @@
+@import "../mixins";
+@import "../variables";
+
+@keyframes fadeOut {
+  0% {opacity: 0;}
+  10% {opacity: 1;}
+  90% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+.errors{
+  position: fixed;
+  z-index: 10000;
+  padding: 10px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  pointer-events: none;
+}
+
+// .alert {
+//   animation: fadeOut 3300ms ease-in 0s 1 forwards;
+//   @include BoxShadowHelper(1);
+//   width: 360px;
+//   float: right;
+//   clear: both;
+//   margin-bottom: 5px;
+//   pointer-events: auto;
+//   background-color: $error-red;
+//   color: white;
+//   border: none;
+// }
+
+.errors .glyphicon-exclamation-sign {
+  padding-right: 5px;
+}

@@ -1,0 +1,67 @@
+.register-form {
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,0.2);
+}
+
+.register-form__heading {
+  margin-bottom: 30px;
+}
+
+.register-form__fields {
+  margin-bottom: 15px;
+}
+
+input[class^='register-form__input'], input[class*=' register-form__input'] {
+  width: 100%;
+}
+
+.register-form__input-username {
+  position: relative;
+  font-size: 16px;
+  font-weight: 300;
+  height: auto;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: -1px;
+  &:focus {
+    z-index: 2;
+  }
+}
+.register-form__input-email {
+  position: relative;
+  font-size: 16px;
+  font-weight: 300;
+  height: auto;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: -1px;
+  &:focus {
+    z-index: 2;
+  }
+}
+.register-form__input-password {
+  position: relative;
+  font-size: 16px;
+  font-weight: 300;
+  height: auto;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: -1px;
+  &:focus {
+    z-index: 2;
+  }
+}
+.register-form__input-password-confirm {
+  position: relative;
+  font-size: 16px;
+  font-weight: 300;
+  height: auto;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  &:focus {
+    z-index: 2;
+  }
+}

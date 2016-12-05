@@ -1,0 +1,11 @@
+.search {
+  @include container;
+}
+
+.search__search-opts {
+  @include span(3 of 12);
+}
+
+.search__search-form {
+  @include span(6 of 12);
+}

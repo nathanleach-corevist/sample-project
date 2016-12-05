@@ -1,0 +1,15 @@
+.navigation {
+  @include container;
+  margin-bottom: 30px;
+}
+
+.nav__link-list {
+  @include span(12 of 12);
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.nav__link-list-item {
+  display: inline-block;
+}

@@ -1,0 +1,16 @@
+@import '{}/node_modules/susy/sass/susy';
+
+.dashboard {
+  @include container();
+}
+.dashboard__shortcuts {
+  @include span(12 of 12);
+}
+
+.dashboard__pricing-availability {
+  @include span(6 of 12 first);
+}
+
+.dashboard__recent-orders {
+  @include span(6 of 12 last)
+}

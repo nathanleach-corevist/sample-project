@@ -1,0 +1,8 @@
+.help {
+  @include container;
+}
+
+.help__left-column,
+.help__right-column {
+  @include span(6 of 12);
+}

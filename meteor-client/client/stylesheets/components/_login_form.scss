@@ -1,0 +1,44 @@
+.login-form {
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,0.2);
+}
+
+.login-form__heading {
+  margin-bottom: 30px;
+}
+
+.login-form__fields {
+  margin-bottom: 15px;
+}
+
+.login-form__username,
+.login-form__password {
+  width: 100%;
+}
+
+.login-form__username {
+  position: relative;
+  font-size: 16px;
+  font-weight: 300;
+  height: auto;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: -1px;
+  &:focus {
+    z-index: 2;
+  }
+}
+.login-form__password {
+  position: relative;
+  font-size: 16px;
+  font-weight: 300;
+  height: auto;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  &:focus {
+    z-index: 2;
+  }
+}

@@ -1,0 +1,19 @@
+@import '../variables';
+
+.dashboard__news {
+  @include span(12 of 12);
+  display: block;
+  margin-bottom: $vertical-spacing;
+}
+
+.news__header-bar {
+  background-color: $primary-color;
+  border-radius: $border-radius;
+  color: #FFF;
+  padding: 6px 9px;
+  margin-bottom: 5px;
+}
+
+.news__header-bar-link {
+  color: #FFF;
+}
